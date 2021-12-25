@@ -1,0 +1,74 @@
+html{
+    font-size: 12px;
+    font-family: "Arial", serif;
+    text-justify: auto;
+    background-color: #1d242d;
+}
+
+img{
+    display: block; 
+    align-content: right;
+    width: 450px;
+    margin: 0 auto;
+}
+
+body{
+    width: 1150px;
+    margin: 0 auto; /* la première valeur de la déclaration margin de cette ligne qui est "0" est pour le haut et le bas. la valeur "auto" est pour les coté gauche et droit de l'élément */
+    background-color: #1d242d;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+u{
+    color: white;
+}
+
+h1,h2,h3,h4{ /* on peut sélectionner plusieurs selecteur en les séparant par une virgule comme sur cette ligne */
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 0; /* par défaut 4 valeur dans le sens : 
+        * Haut 
+        - Droit 
+        - Bas
+        - Gauche 
+        */
+    padding:  20px 0; /* 20px de padding en haut */ 
+    color: white;
+    text-shadow: 1.5px 1.9px 2px white; /* Déclaration pour créer une ombre derrière un text
+                                            - La première valeur correspont au décalage horizontal
+                                            - La seconde au décalage vertical 
+                                            - La troisième au floutage de l'ombre 
+                                            - La quatrième à la couleur de l'ombre. 
+                                            */ 
+}
+
+h2{ /* Taille du titre et allignement du texte */
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{ /* Taille du titre et allignement du texte */
+    font-size: 16px;
+    text-align: center;
+}
+
+#introduction{ /* bizzare. ca ne marche pas. A revoir ! - Les bases du CSS dans la doc Modzila */
+    font-size: 13px;
+    text-align: center;
+}
+
+p, li{ /* Couleur du texte et des puces, taille du text, taille des lignes, espacement des entre les lettres */
+    color: white;
+    font-size: 16px;
+    line-height: auto;
+    letter-spacing: 1px; 
+}
+
+#MOUTSARA{
+    color: red;
+}   
